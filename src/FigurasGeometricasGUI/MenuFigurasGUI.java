@@ -9,9 +9,9 @@ public class MenuFigurasGUI extends JFrame {
     private JButton btnESFERA;
     private JButton btnPIRAMIDE;
     private JPanel MainPanel;
-    private JButton CUBOButton;
-    private JButton PRISMAButton;
-    private JButton SALIRButton;
+    private JButton btnCUBO;
+    private JButton btnPRISMA;
+    private JButton btnSALIR;
 
     public MenuFigurasGUI() {
         setContentPane(MainPanel);
@@ -49,7 +49,7 @@ public class MenuFigurasGUI extends JFrame {
 
             }
         });
-        CUBOButton.addActionListener(new ActionListener() {
+        btnCUBO.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 dispose();                                  //Cierra la ventana menu y no queda en segundo plano
@@ -58,7 +58,7 @@ public class MenuFigurasGUI extends JFrame {
 
             }
         });
-        PRISMAButton.addActionListener(new ActionListener() {
+        btnPRISMA.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 dispose();                                  //Cierra la ventana menu y no queda en segundo plano
@@ -68,7 +68,7 @@ public class MenuFigurasGUI extends JFrame {
 
             }
         });
-        SALIRButton.addActionListener(new ActionListener() {
+        btnSALIR.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 System.exit(0);

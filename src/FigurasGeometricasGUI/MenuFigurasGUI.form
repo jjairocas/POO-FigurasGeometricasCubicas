@@ -40,7 +40,7 @@
           <text value="MENU DE FIGURAS"/>
         </properties>
       </component>
-      <component id="901c0" class="javax.swing.JButton" binding="CUBOButton" default-binding="true">
+      <component id="901c0" class="javax.swing.JButton" binding="btnCUBO">
         <constraints>
           <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -48,7 +48,7 @@
           <text value="CUBO"/>
         </properties>
       </component>
-      <component id="c8715" class="javax.swing.JButton" binding="PRISMAButton" default-binding="true">
+      <component id="c8715" class="javax.swing.JButton" binding="btnPRISMA">
         <constraints>
           <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -56,7 +56,7 @@
           <text value="PRISMA"/>
         </properties>
       </component>
-      <component id="ef1e3" class="javax.swing.JButton" binding="SALIRButton" default-binding="true">
+      <component id="ef1e3" class="javax.swing.JButton" binding="btnSALIR">
         <constraints>
           <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
